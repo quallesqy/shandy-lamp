@@ -1,9 +1,7 @@
 shandy/lamp
 ==========
 
-![docker_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png)
-
-This Docker container implements a last generation LAMP stack with a set of popular PHP7.2 modules. Includes support for [Composer](https://getcomposer.org/), [Bower](http://bower.io/) and [npm](https://www.npmjs.com/) package managers and a Postfix service to allow sending emails through PHP [mail()](http://php.net/manual/en/function.mail.php) function.
+This Docker container implements a last generation LAMP stack with a set of popular PHP7.2 modules. Includes support for [Composer](https://getcomposer.org/) and [Bower](http://bower.io/) package managers and a Postfix service to allow sending emails through PHP [mail()](http://php.net/manual/en/function.mail.php) function.
 
 Includes the following components:
 
@@ -46,11 +44,7 @@ Includes the following components:
  * Development tools
 	* git
 	* composer
-	* npm / nodejs
 	* bower
-	* vim
-	* tree
-	* nano
 	* ftp
 	* curl
 

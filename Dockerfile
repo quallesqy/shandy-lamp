@@ -58,7 +58,7 @@ RUN apt-get install -y \
 RUN apt-get install apache2 libapache2-mod-php7.2 -y
 RUN apt-get install mariadb-common mariadb-server mariadb-client -y
 RUN apt-get install postfix -y
-RUN apt-get install git composer tree vim curl ftp -y
+RUN apt-get install git composer curl ftp -y
 
 ENV LOG_STDOUT **Boolean**
 ENV LOG_STDERR **Boolean**
